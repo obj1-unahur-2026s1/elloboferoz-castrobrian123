@@ -34,7 +34,7 @@ object lobo {
 
         self.subirPeso(aumento)
 
-        console.println("El lobo se comio un animal que pesa " + algo.peso() + " kilos y aumentó " + aumento + " kilos")
+        console.println("el lobo se comio un animal de " + algo.peso() + " kilos y aumentó su peso a " + aumento + " kilos")
 
     }
 
@@ -42,7 +42,7 @@ object lobo {
 
         peso = pesoInicial
 
-        console.println("El lobo sufrió una crisis y volvió a " + peso + " kilos" )
+        console.println("el lobo sufrió una crisis y volvió a pesar " + peso + " kilos" )
 
     }
     
